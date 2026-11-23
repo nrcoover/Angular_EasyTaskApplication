@@ -1,7 +1,7 @@
+import { DatePipe } from '@angular/common';
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CardComponent } from '../../shared/card/card.component';
 import { type Task } from './task.model';
-import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'app-task',
